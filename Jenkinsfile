@@ -11,7 +11,7 @@ pipeline {
             steps {
                 bat 'mvn test'            }
         }
-        stage('packaging  or Deploy the application jaring the file again') {b=
+        stage('packaging  or Deploy the application jaring the file again') {
             steps {
                 bat  'mvn package'
             }
