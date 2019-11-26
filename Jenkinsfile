@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage(' we dont use to add git clone because we are in the same directory cleaning the application and keep testing after') {
+        stage(' we dont use to add git clone because we are in thefdfdfdfdfdfd same directory cleaning the application and keep testing after') {
             steps {
 			bat 'mvn clean'
             }
